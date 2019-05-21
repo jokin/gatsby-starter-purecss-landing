@@ -8,9 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import {Helmet} from "react-helmet";
 
 import Header from "./header"
-import "./layout.css"
+// import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,6 +26,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <Helmet>
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
+
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{

@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +619,18 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
+
+
+/* Coolors Exported Palette - coolors.co/1e91d6-042a2b-5eb1bf-80ded9-172a3a */
+/* RGB */
+/* $color1: rgba(30, 145, 214, 1); //1E91D6
+$color2: rgba(4, 42, 43, 1); //042A2B
+$color3: rgba(94, 177, 191, 1);// 5EB1BF
+$color4: rgba(128, 222, 217, 1); //80DED9
+$color5: rgba(23, 42, 58, 1); //172A3A
+
+background: #36D1DC;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to left, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to left, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
